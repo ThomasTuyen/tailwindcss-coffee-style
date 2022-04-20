@@ -4,14 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon/favicon.jpg"  sizes="16x16">
     <link href="../public/output.css" rel="stylesheet">
+    <script src="./main.js" type="text/javascript" async></script>
     <title>Tuyen Nguyen Coffee Style</title>
 </head>
 <body>
     <div id="root">
-        <div class="content-wrapper">
-            <header>
-                header
+        <div class="content-wrapper font-Karla max-w-screen-xl text-base mx-auto px-8 bg-slate-200">
+            <header class="py-6 mx-auto">
+                <nav class="flex flex-row justify-between items-center relative">
+                    <div class="logo basis-2/6 text-center text-xl font-semibold cursor-pointer">
+                        CoffeeStyle.
+                    </div>
+                    <ul id="nav-menu" class="basis-3/6 hidden lg:flex lg:items-center lg:justify-end lg:gap-8 uppercase text-sm text-gray-500 font-medium">
+                        <li class="tn-top-menu-item">
+                            <a href="#home" class="">Home</a>
+                        </li>
+
+                        <li class="tn-top-menu-item">
+                            <a href="#products" class="">products</a>
+                        </li>
+
+                        <li class="tn-top-menu-item">
+                            <a href="#blog" class="">Blog</a>
+                        </li>
+
+                        <li class="tn-top-menu-item">
+                            <a href="#about" class="">About</a>
+                        </li>
+
+                        <li class="tn-top-menu-item">
+                            <a href="#contact" class="">Contact</a>
+                        </li>
+
+                        <li class="tn-top-menu-item">
+                            <a href="#style" class="">Styleguide</a>
+                        </li>
+
+                        <li class="tn-top-menu-item">
+                            <a href="#" class="">ThomasTuyen</a>
+                        </li>
+                    </ul>
+
+                    <ul  class="basis-3/6 lg:basis-1/6 flex justify-end lg:justify-start items-center ml-16 uppercase text-sm text-gray-500 font-medium">
+                        <li class="tn-top-menu-item">
+                            <a href="#" class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="tn-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                                  </svg>
+                                <span class="mx-2">Cart</span>
+                                <span class="tn-badge-circle bg-orange-400 text-white">5</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="basis-1/6 lg:hidden flex items-center cursor-pointer px-3 sm:px-8 ">
+                        <svg id="nav-toggle" xmlns="http://www.w3.org/2000/svg" class="tn-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
+                          </svg>
+                    </div>
+                </nav>
             </header>
 
             <main>
