@@ -509,6 +509,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 4rem;
 }
 
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .ml-16{
   margin-left: 4rem;
 }
@@ -521,16 +526,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 6rem;
 }
 
-.mt-8{
-  margin-top: 2rem;
-}
-
 .mb-3{
   margin-bottom: 0.75rem;
 }
 
+.mt-8{
+  margin-top: 2rem;
+}
+
 .ml-2{
   margin-left: 0.5rem;
+}
+
+.mb-16{
+  margin-bottom: 4rem;
 }
 
 .flex{
@@ -553,20 +562,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
 }
 
-.h-\[540px\]{
-  height: 540px;
-}
-
-.h-\[320px\]{
-  height: 320px;
-}
-
 .h-\[400px\]{
   height: 400px;
 }
 
-.h-\[400x\]{
-  height: 400x;
+.h-\[380px\]{
+  height: 380px;
 }
 
 .w-full{
@@ -579,8 +580,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: max-content;
 }
 
-.w-\[65\%\]{
-  width: 65%;
+.w-\[95\%\]{
+  width: 95%;
 }
 
 .w-11\/12{
@@ -589,10 +590,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[100px\]{
   width: 100px;
-}
-
-.w-\[95\%\]{
-  width: 95%;
 }
 
 .max-w-screen-xl{
@@ -624,10 +621,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   cursor: pointer;
 }
 
-.grid-cols-2{
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -650,10 +643,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-between{
   justify-content: space-between;
-}
-
-.gap-4{
-  gap: 1rem;
 }
 
 .gap-8{
@@ -695,6 +684,42 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('./img/featured_card2.jpg');
 }
 
+.bg-\[url\(\'\.\/img\/more_product1\.jpg\'\)\]{
+  background-image: url('./img/more_product1.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/more_product2\.jpg\'\)\]{
+  background-image: url('./img/more_product2.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/more_product3\.jpg\'\)\]{
+  background-image: url('./img/more_product3.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/more_product4\.jpg\'\)\]{
+  background-image: url('./img/more_product4.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/more_product5\.jpg\'\)\]{
+  background-image: url('./img/more_product5.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/more_product6\.jpg\'\)\]{
+  background-image: url('./img/more_product6.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/more_product7\.jpg\'\)\]{
+  background-image: url('./img/more_product7.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/more_product8\.jpg\'\)\]{
+  background-image: url('./img/more_product8.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/more_product9\.jpg\'\)\]{
+  background-image: url('./img/more_product9.jpg');
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -724,11 +749,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
-}
-
-.py-4{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .px-4{
@@ -784,10 +804,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2.25rem;
 }
 
-.text-\[13px\]{
-  font-size: 13px;
-}
-
 .font-semibold{
   font-weight: 600;
 }
@@ -806,10 +822,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .leading-7{
   line-height: 1.75rem;
-}
-
-.tracking-wider{
-  letter-spacing: 0.05em;
 }
 
 .text-gray-500{
@@ -832,14 +844,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(162 95 75 / var(--tw-text-opacity));
 }
 
-.text-gray-400{
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
-}
-
 .text-gray-700{
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.text-gray-400{
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .line-through{
@@ -961,6 +973,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .tn-button{
   cursor: pointer;
+  border-radius: 0.25rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 2rem;
@@ -1029,10 +1042,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-opacity-90:hover{
-  --tw-bg-opacity: 0.9;
-}
-
 .hover\:bg-opacity-10:hover{
   --tw-bg-opacity: 0.1;
 }
@@ -1071,10 +1080,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: 1rem;
 }
 
-.group:hover .group-hover\:block{
-  display: block;
-}
-
 .group:hover .group-hover\:duration-700{
   transition-duration: 700ms;
 }
@@ -1096,6 +1101,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px){
+  .md\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:gap-4{
+    gap: 1rem;
+  }
+
   .md\:px-32{
     padding-left: 8rem;
     padding-right: 8rem;
@@ -1115,8 +1128,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 540px;
   }
 
-  .lg\:w-\[65\%\]{
-    width: 65%;
+  .lg\:w-\[80\%\]{
+    width: 80%;
   }
 
   .lg\:basis-1\/6{
@@ -1125,6 +1138,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:items-center{
