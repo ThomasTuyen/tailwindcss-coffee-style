@@ -484,8 +484,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 0.5rem;
 }
 
+.mx-16{
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
 .ml-16{
   margin-left: 4rem;
+}
+
+.mb-6{
+  margin-bottom: 1.5rem;
 }
 
 .flex{
@@ -496,8 +505,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+.h-\[530px\]{
+  height: 530px;
+}
+
+.h-full{
+  height: 100%;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.w-max{
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
 .max-w-screen-xl{
   max-width: 1280px;
+}
+
+.grow{
+  flex-grow: 1;
 }
 
 .basis-2\/6{
@@ -528,18 +559,47 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: flex-end;
 }
 
-.justify-between{
-  justify-content: space-between;
+.justify-center{
+  justify-content: center;
 }
 
-.bg-slate-200{
-  --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+.justify-between{
+  justify-content: space-between;
 }
 
 .bg-orange-400{
   --tw-bg-opacity: 1;
   background-color: rgb(251 146 60 / var(--tw-bg-opacity));
+}
+
+.bg-gray-900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-30{
+  --tw-bg-opacity: 0.3;
+}
+
+.bg-\[url\(\'\.\/img\/slider_img\.jpg\'\)\]{
+  background-image: url('./img/slider_img.jpg');
+}
+
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-bottom{
+  background-position: bottom;
+}
+
+.bg-no-repeat{
+  background-repeat: no-repeat;
 }
 
 .px-8{
@@ -552,14 +612,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1.5rem;
 }
 
-.px-2{
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .text-center{
@@ -585,6 +645,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.25rem;
 }
 
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-semibold{
   font-weight: 600;
 }
@@ -597,6 +667,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-transform: uppercase;
 }
 
+.tracking-wider{
+  letter-spacing: 0.05em;
+}
+
 .text-gray-500{
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
@@ -605,6 +679,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-900{
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
 /*tn = tuyen nguyen*/
@@ -692,12 +771,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1rem;
 }
 
-@media (min-width: 640px){
-  .sm\:px-4{
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
+.hover\:bg-opacity-90:hover{
+  --tw-bg-opacity: 0.9;
+}
 
+@media (min-width: 640px){
   .sm\:px-8{
     padding-left: 2rem;
     padding-right: 2rem;
