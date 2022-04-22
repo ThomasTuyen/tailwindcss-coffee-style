@@ -494,6 +494,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: 0.75rem;
 }
 
+.left-\[calc\(-50vw\+50\%\)\]{
+  left: calc(-50vw + 50%);
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -586,6 +590,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 130px;
 }
 
+.h-\[340px\]{
+  height: 340px;
+}
+
 .w-full{
   width: 100%;
 }
@@ -610,6 +618,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[85\%\]{
   width: 85%;
+}
+
+.w-screen{
+  width: 100vw;
 }
 
 .max-w-screen-xl{
@@ -768,8 +780,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('./img/coffee_magazine3.jpg');
 }
 
+.bg-\[url\(\'\.\/img\/parallax_img\.jpg\'\)\]{
+  background-image: url('./img/parallax_img.jpg');
+}
+
 .bg-cover{
   background-size: cover;
+}
+
+.bg-fixed{
+  background-attachment: fixed;
 }
 
 .bg-bottom{
@@ -1173,11 +1193,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px){
-  .md\:mx-0{
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
   .md\:mb-0{
     margin-bottom: 0px;
   }
@@ -1225,10 +1240,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:pl-14{
     padding-left: 3.5rem;
-  }
-
-  .md\:text-left{
-    text-align: left;
   }
 }
 
