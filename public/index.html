@@ -11,7 +11,7 @@
 </head>
 <body>
     <div id="root">
-        <div class="content-wrapper font-Karla max-w-screen-xl text-base mx-auto px-8">
+        <div class="content-wrapper font-Karla max-w-screen-xl text-base mx-auto px-8 lg:px-1">
             <header class="py-6 mx-auto">
                 <nav class="nav__container flex flex-row justify-between items-center relative">
                     <div class="nav__logo basis-2/6 text-center text-xl font-semibold cursor-pointer">
@@ -455,6 +455,42 @@
                 </div> <!--End subscribe-us-->
             </main>
 
-            <footer></footer>
+            <footer class="footer__container w-[95%] lg:w-[75%] mx-auto pb-24 text-sm"> 
+                <div class="footer__content flex flex-col text-center md:text-left md:flex-row gap-12 md:gap-8">
+                    <div class="footer__col-1 basis-2/6">
+                        <div class="footer__name text-xl font-bold mb-5">CoffeeStyle.</div>
+                        <div class="footer__descrip text-gray-400 leading-7 mb-6 md:mb-[80px]">Delivering the best coffee life since 1996.<br/>From coffee geeks to the real ones.</div>
+                        <div class="footer__copy text-gray-300 leading-7 hover:text-coffee-400 cursor-pointer duration-75">CoffeeStyle Inc. © 1996</div>   
+                    </div>
+                    <div class="footer__col-2 basis-1/6">
+                        <div class="footer__menu uppercase tracking-widest text-gray-600 font-semibold text-xs mb-8">Menu</div>
+                        <div class="footer__menu-list flex flex-col gap-2">
+                            <div class="footer__item"><a href="#" class="footer__link text-gray-400 leading-7  hover:text-coffee-400 duration-75">Home</a></div>
+                            <div class="footer__item"><a href="#" class="footer__link text-gray-400 leading-7  hover:text-coffee-400 duration-75">Ourproducts</a></div>
+                            <div class="footer__item"><a href="#" class="footer__link text-gray-400 leading-7  hover:text-coffee-400 duration-75">About</a></div>
+                            <div class="footer__item"><a href="#" class="footer__link text-gray-400 leading-7  hover:text-coffee-400 duration-75">Contact</a></div>
+                            <div class="footer__item"><a href="#" class="footer__link text-gray-400 leading-7  hover:text-coffee-400 duration-75">Styleguide</a></div>
+                        </div>
+                        
+                    </div>
+                    <div class="footer__col-3 basis-1/6">
+                        <div class="footer__follow uppercase tracking-widest text-gray-600 font-semibold text-xs mb-8">Follow us</div>
+                        <div class="footer__follow-list flex flex-col gap-2">
+                            <div class="footer__item"><a href="#" class="footer__link text-gray-400 leading-7 hover:text-coffee-400 duration-75">Facebook</a></div>
+                            <div class="footer__item"><a href="#" class="footer__link text-gray-400 leading-7 hover:text-coffee-400 duration-75">Instagram</a></div>
+                            <div class="footer__item"><a href="#" class="footer__link text-gray-400 leading-7 hover:text-coffee-400 duration-75">Printest</a></div>
+                            <div class="footer__item"><a href="#" class="footer__link text-gray-400 leading-7 hover:text-coffee-400 duration-75">Twittter</a></div>
+                        </div>
+                    </div>
+                    <div class="footer__col-4 basis-2/6">
+                        <div class="footer__ contact uppercase tracking-widest text-gray-600 font-semibold text-xs mb-8">Contact us</div>
+                        <div class="footer__descrip text-gray-400 leading-7 mb-2">We’re Always Happy to Help</div>
+                        <div class="footer__email mb-6 md:mb-16"><a href="#" class="footer__link text-2xl leading-10 hover:text-coffee-400 duration-75">us@coffeestyle.io</a></div>
+                        <div class="footer__power"><a href="#" class="footer__link text-gray-300 leading-7 hover:text-coffee-400 cursor-pointer duration-75 mb-2">Powered by Webflow</a></div>
+                    </div>
+
+                    
+                </div>
+            </footer>
 </body>
 </html>

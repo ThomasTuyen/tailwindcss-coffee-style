@@ -563,6 +563,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1rem;
 }
 
+.mb-8{
+  margin-bottom: 2rem;
+}
+
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
 .flex{
   display: flex;
 }
@@ -603,16 +611,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 300px;
 }
 
-.h-\[350px\]{
-  height: 350px;
+.h-\[320px\]{
+  height: 320px;
 }
 
 .h-px{
   height: 1px;
-}
-
-.h-\[320px\]{
-  height: 320px;
 }
 
 .w-full{
@@ -649,36 +653,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 2rem;
 }
 
-.w-\[30px\]{
-  width: 30px;
-}
-
 .w-\[350px\]{
   width: 350px;
-}
-
-.w-\[320px\]{
-  width: 320px;
 }
 
 .max-w-screen-xl{
   max-width: 1280px;
 }
 
-.max-w-\[80\%\]{
-  max-width: 80%;
-}
-
-.max-w-\[60\%\]{
-  max-width: 60%;
-}
-
 .max-w-\[70\%\]{
   max-width: 70%;
-}
-
-.max-w-\[350px\]{
-  max-width: 350px;
 }
 
 .grow{
@@ -754,21 +738,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 1.5rem;
 }
 
+.gap-12{
+  gap: 3rem;
+}
+
+.gap-2{
+  gap: 0.5rem;
+}
+
 .overflow-hidden{
   overflow: hidden;
 }
 
-.rounded-none{
-  border-radius: 0px;
-}
-
 .border-\[1px\]{
   border-width: 1px;
-}
-
-.border-gray-300{
-  --tw-border-opacity: 1;
-  border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
 .border-gray-500{
@@ -794,11 +777,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-\[\#1d1f2e\]{
   --tw-bg-opacity: 1;
   background-color: rgb(29 31 46 / var(--tw-bg-opacity));
-}
-
-.bg-gray-300{
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 
 .bg-gray-500{
@@ -940,9 +918,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.5rem;
 }
 
-.px-2{
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .py-4{
@@ -950,24 +928,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1rem;
 }
 
-.py-5{
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
-.py-3{
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
-.px-1{
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-}
-
-.px-6{
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+.pb-24{
+  padding-bottom: 6rem;
 }
 
 .text-left{
@@ -1020,6 +982,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-semibold{
@@ -1089,6 +1056,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
+.text-gray-600{
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
 .line-through{
   -webkit-text-decoration-line: line-through;
           text-decoration-line: line-through;
@@ -1101,6 +1073,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .duration-500{
   transition-duration: 500ms;
+}
+
+.duration-75{
+  transition-duration: 75ms;
 }
 
 /*tn = tuyen nguyen*/
@@ -1398,16 +1374,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 200px;
   }
 
-  .xs\:w-\[70\%\]{
-    width: 70%;
-  }
-
   .xs\:max-w-full{
     max-width: 100%;
-  }
-
-  .xs\:max-w-\[70\%\]{
-    max-width: 70%;
   }
 
   .xs\:gap-5{
@@ -1436,6 +1404,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: 0px;
   }
 
+  .md\:mb-\[80px\]{
+    margin-bottom: 80px;
+  }
+
+  .md\:mb-16{
+    margin-bottom: 4rem;
+  }
+
   .md\:h-\[130px\]{
     height: 130px;
   }
@@ -1448,14 +1424,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
-  }
-
-  .md\:w-0{
-    width: 0px;
-  }
-
-  .md\:w-full{
-    width: 100%;
   }
 
   .md\:basis-1\/2{
@@ -1486,6 +1454,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     gap: 1rem;
   }
 
+  .md\:gap-8{
+    gap: 2rem;
+  }
+
   .md\:gap-x-12{
     -moz-column-gap: 3rem;
          column-gap: 3rem;
@@ -1507,6 +1479,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:pl-14{
     padding-left: 3.5rem;
+  }
+
+  .md\:text-left{
+    text-align: left;
   }
 
   .md\:placeholder\:text-left::-moz-placeholder{
@@ -1594,6 +1570,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:gap-5{
     gap: 1.25rem;
+  }
+
+  .lg\:px-1{
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
   }
 
   .lg\:px-72{
