@@ -531,12 +531,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 4rem;
 }
 
-.mb-6{
-  margin-bottom: 1.5rem;
-}
-
 .mb-24{
   margin-bottom: 6rem;
+}
+
+.mb-6{
+  margin-bottom: 1.5rem;
 }
 
 .mb-3{
@@ -1414,6 +1414,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:h-\[130px\]{
     height: 130px;
+  }
+
+  .md\:h-\[500px\]{
+    height: 500px;
   }
 
   .md\:w-\[80\%\]{
